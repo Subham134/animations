@@ -1,0 +1,39 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+html{
+    color:#555;
+    font:normal 16px sans-serif;
+
+}
+nav{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    opacity: 0.75;
+}
+a:hover{
+    opacity:1;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 100px 0;
+}
+header h2{
+    font-family: "Quicksand",sans-serif;
+}
+header nav{
+    display: flex;
+    margin-right: -5px;
+
+
+}
+nav li{
+    margin: 0px 13px;
+    font-weight: 400;
+}
