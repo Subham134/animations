@@ -8,7 +8,8 @@ html{
     font:normal 16px sans-serif;
 
 }
-nav{
+
+ul,nav{
     list-style: none;
 }
 a{
@@ -111,4 +112,44 @@ animation: Y 1s linear forwards;
         opacity:1;
         margin-top:0px; 
     }
+}
+.grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+hr{
+    width:300px;
+    height:3px;
+    background-color: #3f51b5;
+    margin-bottom:50px;
+    border: 0; 
+}
+section h3.title{
+    text-transform: capitalize;
+    font: bold 32px "Open Sans",sans-serif;
+    margin-bottom: 30px;
+    text-align:center;
+}
+section p{
+    max-width: 775px;
+    padding:0 20px;
+    margin-bottom: 30px;
+    line-height: 2;
+    text-align: center;
+}
+.destinations .grid li{
+    height:310px;
+    padding: 10px;
+    background-size:cover;
+    background-clip: content-box;
+    background-position: center;
+
+}
+.destinations .grid li.small{
+    flex-basis:30%;
+}
+.destinations .grid li.large{
+    flex-basis:70%;
 }
